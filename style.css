@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+#player{
+    padding: 20px;
+    width: 100%;
+    min-height: 75vh;
+}
+.botoes{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.aula-prev{
+    padding: 20px;
+    border:0;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: red;
+    color: #fff;
+    transition:all 0.3s linear;
+}
+.aula-prev:hover{
+    background-color: #900;
+    color: #fff;
+}
+.aula-next{
+    padding: 20px;
+    border:0;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(37, 184, 0);
+    color: #fff;
+    transition:all 0.3s linear;
+}
+.aula-next:hover{
+    background-color: rgb(26, 129, 0);
+    color: #fff;
+}
+.aula-next:disabled{
+    background-color: rgb(102, 102, 102);
+    color: #fff;
+}
